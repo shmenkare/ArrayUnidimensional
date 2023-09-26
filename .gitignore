@@ -1,0 +1,9 @@
+ArrayUnidimensional.csproj
+ArrayUnidimensional.sln
+ArrayUnidimensional.suo
+.gitattributes
+Properties/
+bin/
+obj/
+App.config
+.vs/
