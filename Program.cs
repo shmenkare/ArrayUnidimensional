@@ -25,7 +25,7 @@ namespace ArrayUnidimensional
             }
             foreach (int elemento in numeros)
             {
-                //Thread.Sleep(200);
+                
                 Console.Write(elemento+" ");
             }
             Console.WriteLine();
@@ -39,18 +39,18 @@ namespace ArrayUnidimensional
             {
                 alfabeto[m++] = l;
             }
-            //foreach (char letras in alfabeto)
-            //{
-            //    //Thread.Sleep(200);
-            //    Console.Write(letras + " ");
-            //}
+            foreach (char letras in alfabeto)
+            {
+
+                Console.Write(letras + " ");
+            }
             for (x = 0; x < alfabeto.Length; x++)
             {
-                //Thread.Sleep(200);
+
                 Console.Write(alfabeto[x] + " ");
             }
-            
-            
+
+
             Console.ReadKey();
             
 
