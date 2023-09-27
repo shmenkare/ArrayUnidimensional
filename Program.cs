@@ -11,7 +11,9 @@ namespace ArrayUnidimensional
         {
             int i = 0;
             int j = 1;
-            
+            char l = ' ';
+            int m = 0;
+            int x = 0;
             Console.WriteLine("Dame un numero para el array");
             int n = Convert.ToInt32(Console.ReadLine());
 
@@ -23,11 +25,34 @@ namespace ArrayUnidimensional
             }
             foreach (int elemento in numeros)
             {
-                Thread.Sleep(300);
-                Console.Write(elemento);
-            
+                //Thread.Sleep(200);
+                Console.Write(elemento+" ");
             }
+            Console.WriteLine();
+
+            Console.WriteLine("Dame una letra para el array");
+            char c = Convert.ToChar(Console.ReadLine());
+
+            char[] alfabeto = new char[c];
+
+            for (l = 'a'; l <= c; l++)
+            {
+                alfabeto[m++] = l;
+            }
+            //foreach (char letras in alfabeto)
+            //{
+            //    //Thread.Sleep(200);
+            //    Console.Write(letras + " ");
+            //}
+            for (x = 0; x < alfabeto.Length; x++)
+            {
+                //Thread.Sleep(200);
+                Console.Write(alfabeto[x] + " ");
+            }
+            
+            
             Console.ReadKey();
+            
 
         }
     }
